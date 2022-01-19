@@ -1,14 +1,13 @@
 # Google FooBar 2022
 
->[FooBar](http://foobar.withgoogle.com) 
-is Google's secret recruiting process embedded within their search engine. 
-Many developers in Google have been hired through this hiring challenge.<br><br>
-There are 5 levels, each with a different number of challenges that follow a story.
+><a href="http://foobar.withgoogle.com" target="_blank">FooBar</a>
+is Google's secret recruiting process embedded within their search engine.
 
-<br>
 <p align="center">
   <img src="images/gfoobar.jpg" width=85% />
 </p>
+
+>There are 5 levels, each with a different number of challenges.
 
 ----
 
