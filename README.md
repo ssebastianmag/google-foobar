@@ -7,7 +7,6 @@
 </p>
 
 >There are 5 levels, each with a different number of challenges
-
 ----
 
 ### Level 1
@@ -36,7 +35,6 @@
 - [Expanding Nebula](level-5/expanding-nebula)
 
 ----
-
 <p align="center">
-  <img src="images/gfoobar.gif" height=30% />
+  <img src="images/gfoobar.gif" width=30% />
 </p>
