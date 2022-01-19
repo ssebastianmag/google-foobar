@@ -79,10 +79,10 @@ Note that it may also be run against hidden test cases not shown here.
 Input:
 ```
 solution.solution([
-[True, True, False, True, False, True, False, True, True, False], 
-[True, True, False, False, False, False, True, True, True, False], 
-[True, True, False, False, False, False, False, False, False, True], 
-[False, True, False, False, False, False, True, True, False, False]
+    [True, True, False, True, False, True, False, True, True, False], 
+    [True, True, False, False, False, False, True, True, True, False], 
+    [True, True, False, False, False, False, False, False, False, True], 
+    [False, True, False, False, False, False, True, True, False, False]
 ])
 ```
 Output:
@@ -94,9 +94,9 @@ Output:
 Input:
 ```
 solution.solution([
-[True, False, True],
-[False, True, False], 
-[True, False, True]
+    [True, False, True],
+    [False, True, False], 
+    [True, False, True]
 ])
 ```
 Output:
@@ -108,11 +108,11 @@ Output:
 Input:
 ```
 solution.solution([
-[True, False, True, False, False, True, True, True], 
-[True, False, True, False, False, False, True, False], 
-[True, True, True, False, False, False, True, False], 
-[True, False, True, False, False, False, True, False], 
-[True, False, True, False, False, True, True, True]
+    [True, False, True, False, False, True, True, True], 
+    [True, False, True, False, False, False, True, False], 
+    [True, True, True, False, False, False, True, False], 
+    [True, False, True, False, False, False, True, False], 
+    [True, False, True, False, False, True, True, True]
 ])
 ```
 Output:
@@ -125,10 +125,10 @@ Output:
 Input:
 ```
 Solution.solution({
-{true, true, false, true, false, true, false, true, true, false}, 
-{true, true, false, false, false, false, true, true, true, false}, 
-{true, true, false, false, false, false, false, false, false, true}, 
-{false, true, false, false, false, false, true, true, false, false}
+    {true, true, false, true, false, true, false, true, true, false}, 
+    {true, true, false, false, false, false, true, true, true, false}, 
+    {true, true, false, false, false, false, false, false, false, true}, 
+    {false, true, false, false, false, false, true, true, false, false}
 })
 ```
 Output:
@@ -140,9 +140,9 @@ Output:
 Input:
 ```
 Solution.solution({
-{true, false, true}, 
-{false, true, false}, 
-{true, false, true}
+    {true, false, true}, 
+    {false, true, false}, 
+    {true, false, true}
 })
 ```
 Output:
@@ -154,11 +154,11 @@ Output:
 Input:
 ```
 Solution.solution({
-{true, false, true, false, false, true, true, true}, 
-{true, false, true, false, false, false, true, false}, 
-{true, true, true, false, false, false, true, false}, 
-{true, false, true, false, false, false, true, false}, 
-{true, false, true, false, false, true, true, true}
+    {true, false, true, false, false, true, true, true}, 
+    {true, false, true, false, false, false, true, false}, 
+    {true, true, true, false, false, false, true, false}, 
+    {true, false, true, false, false, false, true, false}, 
+    {true, false, true, false, false, true, true, true}
 }
 ```
 Output:
