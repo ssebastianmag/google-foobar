@@ -3,7 +3,7 @@
 >FooBar is Google's secret recruiting process embedded within their search engine
 
 <p align="center">
-  <img src="images/gfoobar.jpg" width=85% />
+  <img src="images/gfoobar.jpg" width=90% />
 </p>
 
 >There are 5 levels, each with a different number of challenges
