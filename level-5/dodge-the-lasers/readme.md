@@ -25,8 +25,9 @@ beams to know how far off they'll be, you can trick them into shooting
 an asteroid, releasing dust, and concealing the rest of your escape.  
 Write a function solution(str_n) which, given the string representation 
 of an integer n, returns the 
-sum of ```(floor(1*sqrt(2)) + floor(2*sqrt(2)) + ... + floor(n*sqrt(2)))``` as a 
-string. That is, for every number i in the range 1 to n, it adds up all 
+sum of 
+```(floor(1*sqrt(2)) + floor(2*sqrt(2)) + ... + floor(n*sqrt(2)))``` 
+as a string. That is, for every number i in the range 1 to n, it adds up all 
 of the integer portions of ```i*sqrt(2)```.
 
 For example, if str_n was "5", the solution would be calculated as
