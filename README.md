@@ -1,12 +1,12 @@
 # Google FooBar 2022
 
->FooBar is Google's secret recruiting process embedded within their search engine.
+>FooBar is Google's secret recruiting process embedded within their search engine
 
 <p align="center">
   <img src="images/gfoobar.jpg" width=85% />
 </p>
 
->There are 5 levels, each with a different number of challenges.
+>There are 5 levels, each with a different number of challenges
 
 ----
 
@@ -38,5 +38,5 @@
 ----
 
 <p align="center">
-  <img src="images/gfoobar.gif" height=50% />
+  <img src="images/gfoobar.gif" height=30% />
 </p>
