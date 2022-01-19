@@ -36,5 +36,5 @@
 
 ----
 <p align="center">
-  <img src="images/gfoobar.gif" width=50% />
+  <img src="images/gfoobar.gif" width=60% />
 </p>
