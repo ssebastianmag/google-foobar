@@ -1,7 +1,6 @@
 # Google FooBar 2022
 
-><a href="http://foobar.withgoogle.com" target="_blank">FooBar</a>
-is Google's secret recruiting process embedded within their search engine.
+>FooBar is Google's secret recruiting process embedded within their search engine.
 
 <p align="center">
   <img src="images/gfoobar.jpg" width=85% />
@@ -39,5 +38,5 @@ is Google's secret recruiting process embedded within their search engine.
 ----
 
 <p align="center">
-  <img src="images/gfoobar.gif" width=65% />
+  <img src="images/gfoobar.gif" height=50% />
 </p>
