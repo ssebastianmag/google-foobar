@@ -25,7 +25,7 @@
 - [The cake is not a lie!](level-1/the-cake-is-not-a-lie)
 
 ### Level 2
-- [Bunny Worker LocationsVolunteered!](level-2/bunny-worker-locations)
+- [Bunny Worker Locations](level-2/bunny-worker-locations)
 - [Don't Get Volunteered!](level-2/dont-get-volunteered)
 - [En Route Salute](level-2/en-route-salute)
 - [Hey, I Already Did That!](level-2/hey-i-already-did-that)
