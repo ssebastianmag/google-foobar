@@ -1,8 +1,8 @@
 # Google FooBar
 
-> Google Foobar is an invitation-only coding challenge created by Google. 
-> It presents users with a series of progressively difficult 
-> programming problems to solve.
+Google Foobar is an invitation-only coding challenge created by Google. 
+It presents users with a series of progressively difficult programming problems
+to solve across five levels.
 
 <br>
 <p align='center'>
@@ -12,7 +12,7 @@
 > Featuring a wide array of algorithmic problems, 
 > including but not limited to graph theory, dynamic programming, 
 > string manipulation, data structures, recursion, sorting, 
-> searching, optimization and mathematical puzzles.
+> optimization and mathematical puzzles.
 
 ----
 
