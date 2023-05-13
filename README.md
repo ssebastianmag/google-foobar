@@ -6,7 +6,7 @@
 
 <br>
 <p align='center'>
-    <img src="img/foobar-1.png" style="width:80%;" alt=""/>
+    <img src="img/foobar-1.png" style="width:85%;" alt=""/>
 </p>
 
 > Featuring a wide array of algorithmic problems, 
