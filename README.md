@@ -5,8 +5,7 @@ It presents users with a series of progressively difficult
 programming problems to solve. 
 <br><br>
 <p>
-    <img src="img/foobar-1.png" style="width:35%; margin-right:20px;" alt=""/>
-    <img src="img/foobar-2.png" style="width:35%;" alt=""/>
+    <img src="img/foobar-1.png" style="width:95%;" alt=""/>
 </p>
 
 > Google Foobar features a wide array of algorithmic problems, 
