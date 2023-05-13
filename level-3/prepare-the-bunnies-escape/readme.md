@@ -27,33 +27,41 @@ be solvable, though you may or may not need to remove a wall. The height and
 width of the map can be from 2 to 20. Moves can only be made in cardinal 
 directions; no diagonal moves are allowed.
 
-### Languages
-To provide a Python solution, edit solution.py
+----
 
-To provide a Java solution, edit Solution.java
+### Languages
+
+* To provide a Python solution, edit solution.py
+* To provide a Java solution, edit Solution.java
+
+----
 
 ### Test cases
+
 Your code should pass the following test cases.
 Note that it may also be run against hidden test cases not shown here.
 
-#### -- Python cases --
-#### Test case 1
-Input:
+----
+
+#### Python cases
+
+* #### Test case 1
 ```
+# Input:
 solution.solution([
 [0, 1, 1, 0], 
 [0, 0, 0, 1],
 [1, 1, 0, 0], 
 [1, 1, 1, 0]])
 ```
-Output:
 ```
+# Output:
 7
 ```
 
-#### Test case 2
-Input:
+* #### Test case 2
 ```
+# Input:
 solution.solution([
 [0, 0, 0, 0, 0, 0], 
 [1, 1, 1, 1, 1, 0], 
@@ -62,29 +70,30 @@ solution.solution([
 [0, 1, 1, 1, 1, 1], 
 [0, 0, 0, 0, 0, 0]])
 ```
-Output:
 ```
+# Output:
 11
 ```
 
-#### -- Java cases --
-#### Test case 1
-Input:
+#### Java cases
+
+* #### Test case 1
 ```
+// Input:
 Solution.solution({
 {0, 1, 1, 0}, 
 {0, 0, 0, 1}, 
 {1, 1, 0, 0}, 
 {1, 1, 1, 0}})
 ```
-Output:
 ```
+// Output:
 7
 ```
 
-#### Test case 2
-Input:
+* #### Test case 2
 ```
+// Input:
 Solution.solution({
 {0, 0, 0, 0, 0, 0}, 
 {1, 1, 1, 1, 1, 0}, 
@@ -93,13 +102,9 @@ Solution.solution({
 {0, 1, 1, 1, 1, 1}, 
 {0, 0, 0, 0, 0, 0}})
 ```
-Output:
 ```
+// Output:
 11
 ```
 
-Use verify [file] to test your solution and see how it does. 
-When you are finished editing your code, use submit [file] to submit 
-your answer. 
-
-If your solution passes the test cases, it will be removed from your home folder.
+---
