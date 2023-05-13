@@ -19,77 +19,83 @@ integers of the guard's x and y coordinates in the room, and returns an
 integer of the number of distinct directions that you can fire to hit the 
 elite guard, given the maximum distance that the beam can travel.
 
-The room has integer dimensions [1 < x_dim <= 1250, 1 < y_dim <= 1250]. 
+The room has integer dimensions `[1 < x_dim <= 1250, 1 < y_dim <= 1250]`. 
 You and the elite guard are both positioned on the integer lattice at different 
 distinct positions (x, y) inside the room such that 
-[0 < x < x_dim, 0 < y < y_dim]. Finally, the maximum distance that the beam 
+`[0 < x < x_dim, 0 < y < y_dim]`. Finally, the maximum distance that the beam 
 can travel before becoming harmless will be given as an 
 integer 1 < distance <= 10000.
 
 For example, if you and the elite guard were positioned in a room with 
-dimensions [3, 2], your_position [1, 1], guard_position [2, 1], and a 
+dimensions `[3, 2]`, your_position `[1, 1]`, guard_position `[2, 1]`, and a 
 maximum shot distance of 4, you could shoot in seven different directions 
 to hit the elite guard (given as vector bearings from your location): 
-[1, 0], [1, 2], [1, -2], [3, 2], [3, -2], [-3, 2], and [-3, -2]. 
-As specific examples, the shot at bearing [1, 0] is the straight line 
-horizontal shot of distance 1, the shot at bearing [-3, -2] bounces off 
+`[1, 0]`, `[1, 2]`, `[1, -2]`, `[3, 2]`, `[3, -2]`, `[-3, 2]`, and `[-3, -2]`. 
+As specific examples, the shot at bearing `[1, 0]` is the straight line 
+horizontal shot of distance 1, the shot at bearing `[-3, -2]` bounces off 
 the left wall and then the bottom wall before hitting the elite guard with a 
-total shot distance of sqrt(13), and the shot at bearing [1, 2] bounces off 
+total shot distance of sqrt(13), and the shot at bearing `[1, 2]` bounces off 
 just the top wall before hitting the elite guard with a total shot 
 distance of sqrt(5).
 
-### Languages
-To provide a Java solution, edit Solution.java
+----
 
-To provide a Python solution, edit solution.py
+### Languages
+
+* To provide a Python solution, edit solution.py
+* To provide a Java solution, edit Solution.java
+
+----
 
 ### Test cases
+
 Your code should pass the following test cases.
 Note that it may also be run against hidden test cases not shown here.
 
-#### -- Python cases --
-#### Test case 1
-Input:
+----
+
+#### Python cases
+
+* #### Test case 1
 ```
+# Input:
 solution.solution([3,2], [1,1], [2,1], 4)
 ```
-Output:
 ```
+# Output:
 7
 ```
 
-#### Test case 2
-Input:
+* #### Test case 2
 ```
+# Input:
 solution.solution([300,275], [150,150], [185,100], 500)
 ```
-Output:
 ```
+# Output:
 9
 ```
 
-#### -- Java cases --
-#### Test case 1
-Input:
+#### Java cases
+
+* #### Test case 1
 ```
+// Input:
 Solution.solution([3,2], [1,1], [2,1], 4)
 ```
-Output:
 ```
+// Output:
 7
 ```
 
-#### Test case 2
-Input:
+* #### Test case 2
 ```
+// Input:
 Solution.solution([300,275], [150,150], [185,100], 500)
 ```
-Output:
 ```
+// Output:
 9
 ```
 
-Use verify [file] to test your solution and see how it does. 
-When you are finished editing your code, use submit [file] to submit your answer.
-
-If your solution passes the test cases, it will be removed from your home folder.
+---

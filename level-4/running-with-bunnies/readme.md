@@ -61,21 +61,29 @@ Start End Delta Time Status
     3   4    -1    0 Bulkhead reopens; you and the bunnies exit
 ```
 With this solution, you would pick up bunnies 1 and 2. This is 
-the best combination for this space station hallway, so the answer is [1, 2].
+the best combination for this space station hallway, so the answer is `[1, 2]`.
+
+----
 
 ### Languages
-To provide a Java solution, edit Solution.java
 
-To provide a Python solution, edit solution.py
+* To provide a Python solution, edit solution.py
+* To provide a Java solution, edit Solution.java
+
+----
 
 ### Test cases
+
 Your code should pass the following test cases.
 Note that it may also be run against hidden test cases not shown here.
 
-#### -- Python cases --
-#### Test case 1
-Input:
+----
+
+#### Python cases
+
+* #### Test case 1
 ```
+# Input:
 solution.solution([
 [0, 2, 2, 2, -1], 
 [9, 0, 2, 2, -1], 
@@ -83,14 +91,14 @@ solution.solution([
 [9, 3, 2, 0, -1], 
 [9, 3, 2, 2, 0]], 1)
 ```
-Output:
 ```
+# Output:
 [1, 2]
 ```
 
-#### Test case 2
-Input:
+* #### Test case 2
 ```
+# Input:
 solution.solution([
 [0, 1, 1, 1, 1], 
 [1, 0, 1, 1, 1], 
@@ -98,30 +106,16 @@ solution.solution([
 [1, 1, 1, 0, 1], 
 [1, 1, 1, 1, 0]], 3)
 ```
-Output:
 ```
+# Output:
 [0, 1]
 ```
 
-#### -- Java cases --
-#### Test case 1
-Input:
-```
-Solution.solution({
-{0, 1, 1, 1, 1}, 
-{1, 0, 1, 1, 1}, 
-{1, 1, 0, 1, 1}, 
-{1, 1, 1, 0, 1}, 
-{1, 1, 1, 1, 0}}, 3)
-```
-Output:
-```
-[0, 1]
-```
+#### Java cases
 
-#### Test case 2
-Input:
+* #### Test case 1
 ```
+// Input:
 Solution.solution({
 {0, 2, 2, 2, -1}, 
 {9, 0, 2, 2, -1}, 
@@ -129,12 +123,24 @@ Solution.solution({
 {9, 3, 2, 0, -1}, 
 {9, 3, 2, 2, 0}}, 1)
 ```
-Output:
 ```
+// Output:
 [1, 2]
 ```
 
-Use verify [file] to test your solution and see how it does. 
-When you are finished editing your code, use submit [file] to submit your answer. 
+* #### Test case 2
+```
+// Input:
+Solution.solution({
+{0, 1, 1, 1, 1}, 
+{1, 0, 1, 1, 1}, 
+{1, 1, 0, 1, 1}, 
+{1, 1, 1, 0, 1}, 
+{1, 1, 1, 1, 0}}, 3)
+```
+```
+// Output:
+[0, 1]
+```
 
-If your solution passes the test cases, it will be removed from your home folder.
+---
