@@ -4,8 +4,8 @@ Google Foobar is an invitation-only coding challenge created by Google.
 It presents users with a series of progressively difficult 
 programming problems to solve. 
 <br><br>
-<p>
-    <img src="img/foobar-1.png" style="width:80%;" alt=""/>
+<p style="text-align: center;">
+    <img src="img/foobar-1.png" style="width:85%;" alt=""/>
 </p>
 
 > Google Foobar features a wide array of algorithmic problems, 
@@ -50,9 +50,7 @@ programming problems to solve.
 
 ----
 
-<p style="text-align:left">
-  <img src="img/foobar-bunny.gif" alt=""/>
-</p>
-<p>
-    <img src="img/foobar-2.png" style="width:100%;" alt=""/>
+<p style="text-align:center">
+    <img src="img/foobar-bunny.gif" alt=""/>
+    <img src="img/foobar-2.png" style="width:90%;" alt=""/>
 </p>
