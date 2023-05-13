@@ -17,16 +17,16 @@ thanks to your bug, instead of storing the result with proper precision,
 it will be truncated to an integer before adding the new velocity to your 
 current position.  This means that instead of having your correct position, 
 the targeting software will erringly report your position 
-as sum(i=1..n, floor(i*sqrt(2))) - not far enough off to fail 
+as `sum(i=1..n, floor(i*sqrt(2)))` - not far enough off to fail 
 Commander Lambdas testing, but enough that it might just save your life.
 
 If you can quickly calculate the target of the starfighters' laser 
 beams to know how far off they'll be, you can trick them into shooting 
 an asteroid, releasing dust, and concealing the rest of your escape.  
 Write a function solution(str_n) which, given the string representation 
-of an integer n, returns the sum of: (floor(1*sqrt(2)) + floor(2*sqrt(2)) + ... + floor(n*sqrt(2))) 
+of an integer n, returns the sum of: `(floor(1*sqrt(2)) + floor(2*sqrt(2)) + ... + floor(n*sqrt(2)))` 
 as a string. That is, for every number i in the range 1 to n, it adds up all 
-of the integer portions of i*sqrt(2).
+of the integer portions of `i*sqrt(2)`.
 
 For example, if str_n was "5", the solution would be calculated as
 ```
@@ -44,58 +44,64 @@ Since n can be very large (up to 101 digits!), using just sqrt(2) and a
 loop won't work. Sometimes, it's easier to take a step back and concentrate 
 not on what you have in front of you, but on what you don't.
 
-### Languages
-To provide a Java solution, edit Solution.java
+----
 
-To provide a Python solution, edit solution.py
+### Languages
+
+* To provide a Python solution, edit solution.py
+* To provide a Java solution, edit Solution.java
+
+----
 
 ### Test cases
+
 Your code should pass the following test cases.
 Note that it may also be run against hidden test cases not shown here.
 
-#### -- Python cases --
-#### Test case 1
-Input:
+----
+
+#### Python cases
+
+* #### Test case 1
 ```
+# Input:
 solution.solution('77')
 ```
-Output:
 ```
+# Output:
 4208
 ```
 
-#### Test case 2
-Input:
+* #### Test case 2
 ```
+# Input:
 solution.solution('5')
 ```
-Output:
 ```
+# Output:
 19
 ```
 
-#### -- Java cases --
-#### Test case 1
-Input:
+#### Java cases
+
+* #### Test case 1
 ```
-Solution.solution('77')
+// Input:
+Solution.solution("77")
 ```
-Output:
 ```
+// Output:
 4208
 ```
 
-#### Test case 2
-Input:
+* #### Test case 2
 ```
-Solution.solution('5')
+// Input:
+Solution.solution("5")
 ```
-Output:
 ```
+// Output:
 19
 ```
 
-Use verify [file] to test your solution and see how it does. 
-When you are finished editing your code, use submit [file] to submit your answer. 
-
-If your solution passes the test cases, it will be removed from your home folder.
+---

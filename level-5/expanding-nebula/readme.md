@@ -18,6 +18,7 @@ the right of it. If, in the current state, exactly 1 of those 4 cells in the
 the cell will be empty in the next state.
 
 For example, let's say the previous state of the grid (p) was:
+
 ```
 .O..
 ..O.
@@ -27,17 +28,19 @@ O...
 
 To see how this grid will change to become the current grid (c) over the
 next time step, consider the 2x2 blocks of cells around each cell. 
-Of the 2x2 block of [p[0][0], p[0][1], p[1][0], p[1][1]], only p[0][1] 
-has gas in it, which means this 2x2 block would become cell c[0][0] 
+Of the 2x2 block of `[p[0][0]`, `p[0][1]`, `p[1][0]`, `p[1][1]]`, only `p[0][1]` 
+has gas in it, which means this 2x2 block would become cell `c[0][0]` 
 with gas in the next time step:
+
 ```
 .O -> O
 ..
 ```
 
 Likewise, in the next 2x2 block to the right consisting of 
-[p[0][1], p[0][2], p[1][1], p[1][2]], two of the containing 
-cells have gas, so in the next state of the grid, c[0][1] will NOT have gas:
+`[p[0][1]`, `p[0][2]`, `p[1][1]`, `p[1][2]]`, two of the containing 
+cells have gas, so in the next state of the grid, `c[0][1]` will NOT have gas:
+
 ```
 O. -> .
 .O
@@ -45,6 +48,7 @@ O. -> .
 
 Following this pattern to its conclusion, from the previous state p, 
 the current state of the grid c will be:
+
 ```
 O.O
 .O.
@@ -65,19 +69,27 @@ and would return 4. The width of the grid will be between 3 and 50 inclusive,
 and the height of the grid will be between 3 and 9 inclusive. The answer will 
 always be less than one billion (10^9).
 
-### Languages
-To provide a Java solution, edit Solution.java
+----
 
-To provide a Python solution, edit solution.py
+### Languages
+
+* To provide a Python solution, edit solution.py
+* To provide a Java solution, edit Solution.java
+
+----
 
 ### Test cases
+
 Your code should pass the following test cases.
 Note that it may also be run against hidden test cases not shown here.
 
-#### -- Python cases --
-#### Test case 1
-Input:
+----
+
+#### Python cases
+
+* #### Test case 1
 ```
+# Input:
 solution.solution([
     [True, True, False, True, False, True, False, True, True, False], 
     [True, True, False, False, False, False, True, True, True, False], 
@@ -85,27 +97,26 @@ solution.solution([
     [False, True, False, False, False, False, True, True, False, False]
 ])
 ```
-Output:
 ```
+# Output:
 11567
 ```
 
-#### Test case 2
-Input:
+* #### Test case 2
 ```
+# Input:
 solution.solution([
     [True, False, True],
     [False, True, False], 
     [True, False, True]
 ])
 ```
-Output:
 ```
+# Output:
 4
 ```
 
-#### Test case 3
-Input:
+* #### Test case 3
 ```
 solution.solution([
     [True, False, True, False, False, True, True, True], 
@@ -115,15 +126,16 @@ solution.solution([
     [True, False, True, False, False, True, True, True]
 ])
 ```
-Output:
 ```
+# Output:
 254
 ```
 
-#### -- Java cases --
-#### Test case 1
-Input:
+#### Java cases
+
+* #### Test case 1
 ```
+// Input:
 Solution.solution({
     {true, true, false, true, false, true, false, true, true, false}, 
     {true, true, false, false, false, false, true, true, true, false}, 
@@ -131,28 +143,28 @@ Solution.solution({
     {false, true, false, false, false, false, true, true, false, false}
 })
 ```
-Output:
 ```
+// Output:
 11567
 ```
 
-#### Test case 2
-Input:
+* #### Test case 2
 ```
+// Input:
 Solution.solution({
     {true, false, true}, 
     {false, true, false}, 
     {true, false, true}
 })
 ```
-Output:
 ```
+// Output:
 4
 ```
 
-#### Test case 3
-Input:
+* #### Test case 3
 ```
+// Input:
 Solution.solution({
     {true, false, true, false, false, true, true, true}, 
     {true, false, true, false, false, false, true, false}, 
@@ -161,11 +173,9 @@ Solution.solution({
     {true, false, true, false, false, true, true, true}
 }
 ```
-Output:
 ```
+// Output:
 254
 ```
 
-Use verify [file] to test your solution and see how it does. 
-When you are finished editing your code, use submit [file] to submit your answer. 
-If your solution passes the test cases, it will be removed from your home folder.
+---
