@@ -25,10 +25,3 @@ def solution(n, b):
             elif z not in zlist:
                 zlist.append(z)
                 n = z
-
-
-print(solution('1211', 10))
-# output: 1
-
-print(solution('210022', 3))
-# output: 3
