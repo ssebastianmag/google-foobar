@@ -5,7 +5,7 @@
 > to solve across five levels.
 
 <br>
-<p align='center'>
+<p>
     <img src="img/foobar-1.png" style="width:85%;" alt=""/>
 </p>
 
